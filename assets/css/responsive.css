@@ -1,0 +1,206 @@
+@media only screen and (max-width:1439px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    .headerBtn>.btn {
+        padding: 13px 16px;
+        margin-right: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:1365px) {}
+
+@media only screen and (max-width:1199px) {
+    :root {
+        --bs-body-font-size: 14px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .clientSection img {
+        margin: 0 10px;
+        max-width: calc(100%/6 - 20px);
+    }
+
+    .priceBoxCard {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 991px) {
+    :root {
+        --bs-body-font-size: 12px;
+    }
+
+    .tab-content>.tab-pane {
+        display: block;
+        opacity: 1;
+    }
+
+    .mainHeader .navbar-brand img {
+        max-width: 200px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .heroBanner.section.w-100.min-vh-100 {
+        min-height: inherit !important;
+        padding-bottom: 70px;
+    }
+
+    .clientSection,
+    .game-changingSection,
+    .benfitsSection,
+    .demoSection,
+    .diffrenceSection,
+    .industrySection,
+    .priceSection {
+        padding: 45px 0;
+    }
+
+    .tabsGame .accordion-header .accordion-button {
+        background: var(--primary-background);
+        color: #FFF;
+        font-weight: bold;
+        box-shadow: none;
+        border-bottom: 1px solid #FFF;
+    }
+
+    .tabsGame .accordion-header .accordion-button::after {
+        filter: brightness(100);
+    }
+
+    .iconBox {
+        min-height: 285px;
+    }
+
+    .mainFooter {
+        padding-top: 45px;
+    }
+
+    .mainFooter img {
+        max-width: 100%;
+    }
+
+    .copyrightarea .col-md-6 {
+        padding-bottom: 40px;
+    }
+
+    .mainFooter ul li {
+        margin-bottom: 10px;
+    }
+
+    .priceBoxCard span {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    :root {
+        --bs-body-font-size: 14px;
+    }
+
+    .mainHeader .navbar-brand {
+        margin-bottom: 15px;
+    }
+
+    .colorScheme {
+        position: absolute;
+        top: 4px;
+        right: 15px;
+    }
+
+    .colorScheme .btn {
+        padding: 2px 10px;
+    }
+
+    .mainHeader .headerBtn {
+        margin: 0 !important;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .mainHeader .headerBtn>.btn {
+        width: calc(50% - 5px);
+        padding: 12px 5px;
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .clientSection img {
+        margin: 10px;
+        max-width: calc(100%/3 - 20px);
+    }
+
+    .heroBanner.section.w-100.min-vh-100 {
+        padding-bottom: 0;
+    }
+
+    .game-changingSection .tabsGame .accordion-body img {
+        margin-top: 45px;
+    }
+
+    .iconBox {
+        min-height: inherit;
+        padding-bottom: 40px !important;
+    }
+
+    .iconBox:hover {
+        transform: scale(1);
+    }
+
+    .mainFooter h6 {
+        padding-left: 40px;
+        margin-bottom: 15px;
+    }
+
+    .mainFooter ul {
+        padding-left: 40px;
+        margin-bottom: 35px;
+    }
+
+    .copyrightarea .col-md-6 {
+        padding-top: 25px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .copyrightarea .col-md-6:last-child {
+        border: 0px;
+        padding-top: 0;
+    }
+
+    .footerLinks a {
+        margin: 0 15px;
+    }
+
+    #hsModal .modal-dialog .modal-content {
+        border-radius: 15px;
+        padding: 25px 12px;
+    }
+}
